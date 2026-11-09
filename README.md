@@ -46,8 +46,8 @@ las existencias (stock) y el registro de notificaciones del sistema.
 ## 3. Ejecutar
 
 ```powershell
-git clone https://github.com/<usuario>/Equipo-3-Inventario-y-Notificaciones.git
-cd Equipo-3-Inventario-y-Notificaciones
+git clone https://github.com/<usuario>/equipo-3-inventario-notificaciones.git
+cd equipo-3-inventario-notificaciones
 node configurar-ips.mjs          # genera el .env (y contraseñas nuevas de MySQL)
 docker compose config --quiet
 docker compose up --build -d
